@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: lightblue;
+  color: #fff;
+  padding: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 5px;
+  
+}
+.tag{
+  display: flex;
+  justify-content: left;
+  margin-bottom: -40px;
+  color: red;
+  
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 5px 20px;
+}
+
+
+section {
+  padding: 80px;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+}
+.link{
+  justify-content: left;
+}
+.social{
+  justify-content: right;
+  margin-left: 60%;
+}
+
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
